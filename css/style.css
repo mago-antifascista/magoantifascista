@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+}
+
+@font-face {
+    font-family: Chomsky;
+    src: url('/fonts/Chomsky.otf') format('opentype');
+}
+
+#btnPdf {
+    text-align: center;
+    font-size: 2rem;
+    text-decoration: none;
+    /* padding: 5px; */
+    border: 1px solid #e44;
+    color: #e44;
+    background-color: #000;
+}
+#btnPdf:hover {
+    text-align: center;
+    text-decoration: none;
+    transform: scale(1.1);
+    border: 1px solid #f00;
+    color: #f00;
+}
+#sigilos {
+    justify-content: center;
+    align-items: center;
+    height: 22vh;
+}
+#sigilos img {
+    height: 100%;
+}
+.div-img-sigilo {
+    align-items: center;
+    justify-content: center;
+}
+.div-img-sigilo img {
+    width: 100px;
+}
+.main-text {
+    color: #ddd;
+}
+#sigilo-lg {
+    width: 100%;
+}
+.england-text {
+    color: #ddd;
+    font-family: 'Chomsky';
+}
+.title-sigilo {
+    text-align: center;
+    font-size: 3rem;
+}
+#sigilo-lg {
+    height: 50vh;
+    width: auto;
+    margin: auto;
+}
+.section-sigilo {
+    align-content: center;
+    align-items: center;
+}
+.main-text {
+    margin-top: 20%;
+    font-size: 1.3rem;
+    text-align: justify;
+}
+.pdf-link {
+    align-items: center;
+    align-content: center;
+}
